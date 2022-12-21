@@ -50,5 +50,5 @@ I'm a Fullstack Web Developer in Harare Zimbabwe, currently working as a CTO at 
 <h3>Stats</h3>
 <p float="left">
 <img align="center" width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=MufaroDKaseke&theme=dark" alt="GitHub Stats"/>
-<img align="center" width="49%" src="https://github-readme-stats.vercel.app/api?username=MufaroDkASEKE&show_icons=true&include_all_commits=true&theme=radical&count_private=true" alt="github stats">
+<!--<img align="center" width="49%" src="https://github-readme-stats.vercel.app/api?username=MufaroDkASEKE&show_icons=true&include_all_commits=true&theme=radical&count_private=true" alt="github stats">-->
 </p>

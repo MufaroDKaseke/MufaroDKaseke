@@ -1,0 +1,90 @@
+/* Main Stylesheet */
+
+// Imports
+@import "./variables";
+@import "./mixins";
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
+
+
+body {
+  font-family: "Orbitron", Arial, sans-serif;
+  color: $white;
+}
+
+b,
+sup,
+sub,
+u,
+del {
+  color: $primary;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+p {
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2em;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+  width: 2px;
+  height: 5px;
+  background: transparent;
+}
+/* ScrollBar Thumb */
+::-webkit-scrollbar-thumb {
+  background: #ff0000;
+}
+
+/* Header */
+@import "./header";
+
+/* Main Container */
+main {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('../img/bg-2.jpg') center/cover;
+
+  .container {
+    .row {
+      min-height: 100vh;
+    }
+  }
+}
